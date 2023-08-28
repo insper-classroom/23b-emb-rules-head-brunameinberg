@@ -1,7 +1,8 @@
 // foo.h
 
-int foo(int b) {
-  if (b > 2)
-    return 0;
-  return 1;
-}
+#define "foo.c"
+#ifdef FOO_H
+
+int foo(int b);
+
+#ENDIF
