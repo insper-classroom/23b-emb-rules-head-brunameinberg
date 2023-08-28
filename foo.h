@@ -6,4 +6,4 @@
 
 int foo(int b);
 
-#ENDIF
+#endif
